@@ -7,9 +7,15 @@
    
    <Button android:id="@+id/newTagButton" 
       android:layout_width="@dimen/tagButtonWidth" 
-      android:layout_height="wrap_content"></Button>
+      android:layout_height="wrap_content"
+       style="?android:attr/buttonBarButtonStyle">
+
+   </Button>
    <Button android:id="@+id/newEditButton" 
       android:layout_width="@dimen/editButtonWidth" 
       android:layout_height="wrap_content" 
-      android:text="@string/edit"></Button>
+      android:text="@string/edit"
+       style="?android:attr/buttonBarButtonStyle">
+
+   </Button>
 </TableRow>
