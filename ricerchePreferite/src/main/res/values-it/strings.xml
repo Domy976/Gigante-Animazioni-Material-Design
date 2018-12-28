@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ricerche Preferite</string>
+    <string name="tagPrompt">Nome della query</string>
+    <string name="queryPrompt">Inserisci qui una o più parole chiavi</string>
+    <string name="taggedSearches">Ricerche Salvate</string>
+    <string name="edit">Modifica</string>
+    <string name="clearTags">Cancella Query Salvate</string>
+    <string name="save">Salva</string>
+    <string name="erase">Pulisci</string>
+    <string name="cancel">Annulla</string>
+    <string name="missingTitle">Testo mancante</string>
+    <string name="missingMessage">Inserire una query di ricerca e identificarla con un nome.</string>
+    <string name="confirmTitle">Confermare?</string>
+    <string name="confirmMessage">Questa azione eliminerà tutte le ricerche salvate</string>
+</resources>

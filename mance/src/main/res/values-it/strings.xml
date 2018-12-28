@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcolatore Mance</string>
+    <string name="billTotal">Spesa Totale</string>
+    <string name="tip">Mancia</string>
+    <string name="total">Totale</string>
+    <string name="custom">Personalizzato</string>
+    <string name="hintBill">Inserire l\'importo della spesa</string>
+    <string name="hintTotalBill" translatable="false">Spesa Totale</string>
+</resources>
