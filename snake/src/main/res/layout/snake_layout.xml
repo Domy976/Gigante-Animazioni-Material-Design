@@ -15,7 +15,8 @@
 -->
 
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res/com.example.android.snake">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
   <com.example.android.snake.BackgroundView
     android:id="@+id/background"
@@ -53,23 +54,28 @@
       android:layout_alignParentTop="true"
       android:layout_centerHorizontal="true"
       android:padding="20dp"
-      android:src="@drawable/dpad_up" />
+      android:src="@drawable/dpad_up"
+        tools:ignore="ContentDescription"/>
 
     <ImageView android:id="@+id/imageLeft"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
       android:layout_centerVertical="true"
       android:padding="20dp"
-      android:src="@drawable/dpad_left" />
+      android:src="@drawable/dpad_left"
+        tools:ignore="ContentDescription"/>
 
     <ImageView android:id="@+id/imageRight"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
       android:layout_centerVertical="true"
       android:padding="20dp"
-      android:src="@drawable/dpad_right" />
+      android:src="@drawable/dpad_right"
+        tools:ignore="ContentDescription"/>
 
     <ImageView android:id="@+id/imageDown"
       android:layout_width="wrap_content"
@@ -77,7 +83,8 @@
       android:layout_alignParentBottom="true"
       android:layout_centerHorizontal="true"
       android:padding="20dp"
-      android:src="@drawable/dpad_down" />
+      android:src="@drawable/dpad_down"
+        tools:ignore="ContentDescription"/>
   </RelativeLayout>
 
 </merge>
