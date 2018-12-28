@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snake</string>
+    <string name="mode_ready">Snake - Tocca lo schermo per giocare</string>
+    <string name="mode_pause">Pausa - Tocca lo schermo per Riprendere</string>
+    <string name="mode_lose">Partita Terminata - Score: %1$d  Tocca lo schermo per Giocare</string>
+    <string name="imgArrow">Premilo!</string>
+</resources>

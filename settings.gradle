@@ -1,0 +1,2 @@
+include ':mance', ':ricerchePreferite', ':cannone', ':snake'
+include ':giocoBandiere'
