@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="results_format">
+      Colpi sparati: %1$d\nTempo totale: %2$.1f</string>
+    <string name="reset_game">Ricomincia</string>
+    <string name="win">Hai vinto!</string>
+    <string name="lose">Hai perso!</string>
+    <string name="time_remaining_format">
+      Tempo rimasto: %.1f secondi</string>
+</resources>

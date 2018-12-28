@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choices">Seleziona il numero di possibilità</string>
+    <string name="correct">Esatto!</string>
+    <string name="guess_country">Scegli la nazione</string>
+    <string name="guesses">Risposte Esatte</string>
+    <string name="incorrect_answer">Errato!</string>
+    <string name="more_regions_title">Sono necessarie più regioni!</string>
+    <string name="more_regions_message">Non ci sono abbastanza nazioni nelle regioni selezionate. Selezionare più regioni.</string>
+    <string name="of">di</string>
+    <string name="question">Domanda</string>
+    <string name="quiz_title">Quiz delle Bandiere - 10 Domande</string>
+    <string name="regions">Seleziona regioni</string>
+    <string name="reset_quiz">Azzera quiz</string>
+</resources>
