@@ -5,6 +5,5 @@
     <string name="tip">Mancia</string>
     <string name="total">Totale</string>
     <string name="custom">Personalizzato</string>
-    <string name="hintBill">Inserire l\'importo della spesa</string>
-    <string name="hintTotalBill" translatable="false">Spesa Totale</string>
+
 </resources>
