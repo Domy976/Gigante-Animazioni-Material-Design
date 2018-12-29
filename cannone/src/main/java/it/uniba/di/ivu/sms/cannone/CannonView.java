@@ -343,7 +343,7 @@ public class CannonView extends SurfaceView implements
          R.string.time_remaining_format, timeLeft), 30, 50, textPaint);
       // if a cannonball is currently on the screen, draw it
       if (cannonballOnScreen) {
-          cannonballPaint.setColor(Color.RED);
+          cannonballPaint.setColor(Color.WHITE);
           canvas.drawCircle(cannonball.x, cannonball.y, cannonballRadius, cannonballPaint);
       }
 
@@ -352,7 +352,7 @@ public class CannonView extends SurfaceView implements
        canvas.drawCircle(0, (int) screenHeight / 2, cannonBaseRadius, cannonPaint);
 
        cannonPaint.setStrokeWidth(lineWidth * 0.1f);
-       cannonPaint.setColor(Color.YELLOW);
+       cannonPaint.setColor(Color.WHITE);
        canvas.drawArc(-150, screenHeight / 2 - 90, 50, screenHeight/2 + lineWidth*1.5f, 270, 90, false, cannonPaint);
        canvas.drawArc(-150, screenHeight / 2 - 90, 50, screenHeight/2 + lineWidth*1.5f, 90, -90, false, cannonPaint);
 
@@ -396,9 +396,9 @@ public class CannonView extends SurfaceView implements
          if (!hitStates[i - 1]) {
             // alternate coloring the pieces yellow and blue
             if (i % 2 == 0)
-               targetPaint.setColor(Color.YELLOW);
+               targetPaint.setColor(Color.WHITE);
             else
-               targetPaint.setColor(Color.GREEN);
+               targetPaint.setColor(Color.WHITE);
 
             targetPaint.setStrokeWidth(lineWidth * 0.1f);
             //targetPaint.setColor(Color.WHITE);
